@@ -27,12 +27,12 @@ const instructors = [
 
 const PopularInstructor: FC = () => {
   return (
-    <section className="py-5">
+    <section className="py-5 w-full">
       <h2 className="text-2xl font-black">Popular Instructors</h2>
       <p className="text-neutral-600 mb-4 font-semibold">
         Here are the most popular Instructor on our platform
       </p>
-      <ul className="py-2 flex flex-wrap justify-center gap-4">
+      <ul className="py-2 flex flex-wrap justify-center gap-4 mx-auto">
         {instructors.map((instructor, index) => (
           <Link href="/" key={index}>
             <li className="h-96 w-72 rounded-xl relative overflow-hidden">

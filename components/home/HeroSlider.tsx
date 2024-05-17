@@ -36,7 +36,7 @@ export default function HeroSlider(): JSX.Element {
     },
   ];
   return (
-    <div className="w-4/5 md:w-[95%] mx-auto h-96">
+    <div className="w-[98%] md:w-[95%] mx-auto h-96">
       <Swiper className="mySwiper h-full ">
         {HeroSlides.map((slide, index) => (
           <SwiperSlide key={index} className="rounded-3xl overflow-hidden">
